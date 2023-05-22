@@ -1,0 +1,106 @@
+.field {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.background {
+    background: linear-gradient(106deg, #200a34 0%, #1b893a 100%);
+    padding-top: 20px;
+    padding-bottom: 27em;
+}
+
+.h1 {
+    color: #fff;
+    animation: pulse 3s ease 0s 1 normal forwards;
+}
+
+@keyframes pulse {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+
+.container {
+    padding-top: 20px;
+    border: 10px solid;
+    border-color: #fff;
+}
+
+.list {
+    color: #fff;
+    animation: list 3s ease 0s 1 normal forwards;
+}
+
+@keyframes list {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+
+#frm {
+    color: #fff;
+
+}
+
+.table-striped {
+    color: #fff;
+}
+
+.row-color {
+    background-color: #d8bf8c;
+}
+
+#task_submit {
+    background-color: yellow;
+    color: black;
+}
+
+#warning{
+    background-color: red;
+    animation: shake 2s ease 0s 1 normal forwards;
+}
+@keyframes shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
